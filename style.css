@@ -1,0 +1,88 @@
+
+body {
+    background: #001B2E;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+}
+
+.sol {
+    background: #ffae00;
+    border-radius: 100%;
+    border: solid 4px #d59500;
+    height: 100px;
+    width: 100px;
+}
+.solao {
+    background: #ff6200;
+    border-radius: 100%;
+    border: solid 4px #cf4f00;
+    height: 100px;
+    width: 100px;
+}
+.lua {
+    background-color: #989898;
+    border-radius: 100%;
+    border: solid 4px #7c7c7c;
+    height: 100px;
+    width: 100px;
+}
+.nuvem0 {
+    animation: moveRight 80s infinite linear;
+}
+.nuvem1 {
+    animation: moveLeft 120s infinite linear;
+}
+.nuvem2 {
+    animation: moveLeft 90s infinite linear;
+}
+.nuvem3 {
+    animation: moveLeft 200s infinite linear;
+}
+.nuvem4 {
+    animation: moveRight 150s infinite linear;
+}
+
+@keyframes moveRight {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(1400px);
+    }
+}
+@keyframes moveLeft {
+    rom {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-1400px);
+    }
+}
+
+h1 {
+    font: normal 28pt Arial, Helvetica, sans-serif;
+    color: #FBFFFE;
+}
+
+.interface {
+    text-align: center;
+    z-index: 3;
+}
+
+.relogio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFFFE;
+    width: 450px;
+    height: 150px;
+    border-radius: 20px;
+}
+.data {
+    font: normal 72pt Arial, Helvetica, sans-serif;
+}
+
+
